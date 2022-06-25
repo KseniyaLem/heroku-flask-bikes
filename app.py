@@ -41,4 +41,4 @@ def predict():
     return render_template('index.html', prediction_text='Number of rented bicycles should be {}'.format(round(prediction[0])))
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=False)
+    app.run(debug=True)
