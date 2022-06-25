@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#228B22, #9ACD32) fixed;
+}
+
+div {
+  font-size: 25px;
+  font-family: 'Century Gothic';
+  color: white;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login select {
+  background-color: #006400;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  font-family: 'Century Gothic';
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.login input {
+  background-color: #006400;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  font-family: 'Century Gothic';
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input::placeholder{
+  color: white;
+}
+
+button {
+  background-color: #FFFF00;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 12px;
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Century Gothic';
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
