@@ -1,1 +1,1 @@
-web: gunicorn heroku-week5-app1.wsgi
+web: python app.py runserver 0.0.0.0:5000
