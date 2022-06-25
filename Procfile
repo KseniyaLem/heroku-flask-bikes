@@ -1,1 +1,1 @@
-web: gunicorn heroku-week5-app1.wsgi
+web: gunicorn app:app --log-file -
